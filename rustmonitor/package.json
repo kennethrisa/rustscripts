@@ -1,0 +1,21 @@
+{
+  "name": "rustmonitor",
+  "version": "0.0.1",
+  "description": "Check if server responds to gameport with sourcequery, than kills it if not respond",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "main": "monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node monitor.js"
+  },
+  "author": "Kenna",
+  "private": "true",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "sourcequery": "0.0.2",
+    "webhook-discord": "^3.1.2"
+  }
+}

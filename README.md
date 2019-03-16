@@ -1,2 +1,3 @@
 # rustscripts
-Some scripts
+
+* [rustmonitor](/rustmonitor)
