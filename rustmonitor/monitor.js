@@ -48,7 +48,7 @@ var myFunction = function() {
         console.log("Too Many timeouts - sending to discord");
         sendWar();
     }
-    if (counter > 10){
+    if (counter > 290){
         shell.exec(killserverscript)
         console.log("Stopping - max time exeeded - killing process");
         setTimeout(exitNode, 1000);
