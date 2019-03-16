@@ -18,6 +18,8 @@ killserverscript (Path to the killserver script)
 ## Edit killserver.sh
 serverport and discordurl
 
+chmod 700 killserver.sh
+
 ## Start:
 
 npm start
