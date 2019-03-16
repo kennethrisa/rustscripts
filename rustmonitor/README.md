@@ -23,3 +23,10 @@ chmod 700 killserver.sh
 ## Start:
 
 npm start
+
+## crontab
+
+Run script every 10 min
+```
+*/10 * * * * /usr/bin/env node /home/rust/rustmonitor/monitor.js > /dev/null 2>&1
+```
